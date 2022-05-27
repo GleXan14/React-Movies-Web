@@ -1,0 +1,35 @@
+
+.custom-movie-container{
+
+    border-bottom: rgba(221, 221, 221, 1);
+    background-position: right -200px top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+    
+    .custom-movie-detail{
+        
+        background-image: linear-gradient(
+            to right, rgba(220.5, 220.5, 220.5, 1) 150px,
+            rgba(220.5, 220.5, 220.5, 0.64) 100%
+        );
+    
+        .custom-movie-img{
+            float: left;
+            width: 300px;
+            height: 450px;
+            object-fit: cover;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+            
+        }
+    
+        .custom-back-button{
+    
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}

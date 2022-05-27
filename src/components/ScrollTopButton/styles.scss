@@ -1,0 +1,16 @@
+
+.custom-scroll-top-button{
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    z-index: 99;
+    padding: 5px;
+    background: rgb(89, 89, 179);
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+
+    svg{
+        color: white;
+    }
+}

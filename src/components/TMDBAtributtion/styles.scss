@@ -1,0 +1,13 @@
+.tmdb_atributtion{
+    
+    text-align: center;
+    
+    .content{
+        background: rgb(89, 89, 179); //rgba(3,37,65, 1);
+        //backdrop-filter: blur(20px);
+        color: white;
+        border-radius: 15px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+}
