@@ -96,6 +96,6 @@ export default class Movie implements IMovie{
     }
 
     getVote(){
-        return this.voteAverage! * 10;
+        return parseInt(`${this.voteAverage! * 10}`);
     }
 }
